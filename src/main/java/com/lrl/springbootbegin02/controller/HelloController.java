@@ -12,11 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019/8/6 11:06
  */
 @RestController
+@RequestMapping("/root")
 public class HelloController {
 
     @RequestMapping("/hello")
     public String func(){
 
-        return "hello sb";
+        return "hello sb!???!";
     }
 }
